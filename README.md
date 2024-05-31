@@ -33,7 +33,7 @@ https://github.com/Santoshpant23/KnoxClubSharing/assets/72144199/93430f09-be94-4
 - **Database**: MongoDB
 - **Authentication**: JWT (JSON Web Tokens)
 - **Email Service**: Nodemailer
-- **Hosting**: AWS
+- **Hosting**: AWS & Vercel
 
 ## Installation
 To get started with the project, follow these steps:
