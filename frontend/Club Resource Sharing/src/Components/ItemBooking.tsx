@@ -66,7 +66,9 @@ const ItemBooking: React.FC = () => {
         <p className="text-lg text-gray-700 mb-4"><strong>Quantity:</strong> {item.quantity}</p>
         <p className="text-lg text-gray-700 mb-4"><strong>Available:</strong> {item.available ? "Yes" : "Not Today, pick other dates"}</p>
 
-        <button
+        {token && (
+          <div>
+            <button
           onClick={() => setIsBookingOpen(!isBookingOpen)}
           className="mt-4 bg-blue-500 text-white px-6 py-2 rounded-full font-semibold shadow-lg hover:bg-blue-600 transition duration-300"
         >
@@ -92,6 +94,8 @@ const ItemBooking: React.FC = () => {
             >
               Confirm Booking
             </button>
+          </div>
+        )}
           </div>
         )}
       </div>
