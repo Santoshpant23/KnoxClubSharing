@@ -4,6 +4,9 @@
 
 Welcome to the **KnoxClubSharing Platform**, an innovative solution designed to help clubs in colleges share resources and reduce costs. This platform enables clubs to list items they are willing to share and allows other clubs to borrow these items for their events, promoting a culture of collaboration and sustainability.
 
+https://github.com/Santoshpant23/KnoxClubSharing/assets/72144199/93430f09-be94-4a92-a315-4f47732028fe
+
+
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Features](#features)
