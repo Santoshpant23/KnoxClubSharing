@@ -5,17 +5,17 @@ export default function Footer() {
   return (
     <footer className="bg-slate-800 text-white py-10">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row justify-between items-center">
+        <div className="flex flex-col md:flex-row md:items-center justify-between items-start ml-5 p-5">
           {/* Contact Information */}
           <div className="mb-6 md:mb-0">
             <h2 className="text-2xl font-bold mb-2">ClubSharing</h2>
             <p className="text-gray-400">Connecting clubs for a better community.</p>
-            <p className="text-gray-400 mt-2">Email: support@clubsharing.com</p>
-            <p className="text-gray-400">Phone: (123) 456-7890</p>
+            <p className="text-gray-400 mt-2">Email: <a href="mailto:spant@knox.edu"><b>spant@knox.edu</b></a></p>
+            <p className="text-gray-400">Phone: (309) 297-6270</p>
           </div>
 
           {/* Navigation Links */}
-          <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8">
+          <div className="flex flex-col md:flex-row items-start md:items-center space-y-4 md:space-y-0 md:space-x-8">
             <Link to="/" className="hover:text-green-400 transition duration-300">Home</Link>
             <Link to="/about" className="hover:text-green-400 transition duration-300">About Us</Link>
             <Link to="/contact" className="hover:text-green-400 transition duration-300">Contact</Link>

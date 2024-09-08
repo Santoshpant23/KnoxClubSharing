@@ -44,7 +44,7 @@ export default function ClubDetail() {
   return (
      
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
-      <div className="bg-white p-10 rounded-lg shadow-lg cursor-pointer transform transition duration-300 hover:shadow-2xl hover:scale-105 w-full max-w-md mb-10">
+      <div className="bg-white p-10 mt-5 rounded-lg shadow-lg cursor-pointer transform transition duration-300 hover:shadow-2xl hover:scale-105 w-full max-w-md mb-10">
         <h2 className="text-3xl font-bold mb-6 text-center">{club.name}</h2>
         <p className="text-lg text-gray-700 mb-4">{club.description}</p>
         <p className="text-gray-700 mb-2"><strong>Email:</strong> {club.email}</p>

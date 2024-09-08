@@ -10,7 +10,7 @@ export default function ClubCard({ clubName, clubDesc, clubId }: {clubName: any,
   return (
     <div
       onClick={handleClick}
-      className="transform hover:scale-105 transition-transform duration-300 cursor-pointer"
+      className="transform hover:scale-105 transition-transform duration-300 cursor-pointer p-2"
     >
       <div className="bg-white p-6 rounded-lg shadow-lg text-center hover:shadow-2xl transition-shadow duration-300">
         <h3 className="text-xl font-bold mb-2">{clubName}</h3>
